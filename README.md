@@ -54,27 +54,6 @@ The app requires both the backend server (for auth/payments) and the frontend cl
 - **Admin Dashboard**:
     - Login: `admin@admin.com` / `admin123`
     - View users, approve payments, and generate license keys.
-
-## Uploading to GitHub
-
-1.  **Initialize Git:**
-    ```bash
-    git init
-    ```
-2.  **Add all files:**
-    ```bash
-    git add .
-    ```
-3.  **Commit:**
-    ```bash
-    git commit -m "Initial commit"
-    ```
-4.  **Connect to GitHub:**
-    (Create a new empty repository on GitHub first)
-    ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/heaithy-planner.git
-    ```
-5.  **Push:**
     ```bash
     git push -u origin main
     ```
